@@ -1,0 +1,69 @@
+{
+    "pages": [
+        "pages/login/login",
+        "pages/index/index",
+        "pages/setting/setting",
+        "pages/user/useHome",
+        "pages/chat/chat",
+        "pages/setting/security",
+        "pages/setting/contentPage/alterPas",
+        "pages/setting/contentPage/destroy",
+        "pages/community/community",
+        "pages/search/search",
+        "pages/live/live",
+        "pages/addUser/addUser",
+        "pages/group/group",
+        "pages/group/createGroup",
+        "pages/sheqv/luntan",
+        "pages/sheqv/article",
+        "pages/setting/contentPage/about",
+        "pages/setting/contentPage/Realname"
+    ],
+    "subPackages": [],
+    "window": {
+        "navigationBarTextStyle": "black",
+        "navigationBarTitleText": "uni-app",
+        "navigationBarBackgroundColor": "#F8F8F8",
+        "backgroundColor": "#F8F8F8"
+    },
+    "tabBar": {
+        "color": "#d8d8d8",
+        "selectedColor": "#f0ae05",
+        "borderStyle": "white",
+        "backgroundColor": "#ffffff",
+        "list": [
+            {
+                "selectedIconPath": "static/icon/tanhua001.png",
+                "iconPath": "static/icon/tanhua.png",
+                "pagePath": "pages/index/index",
+                "text": "聊天"
+            },
+            {
+                "selectedIconPath": "./static/icon/biaodan001.png",
+                "iconPath": "./static/icon/biaodan.png",
+                "pagePath": "pages/community/community",
+                "fontSize": "16px",
+                "text": "通讯"
+            },
+            {
+                "selectedIconPath": "static/icon/luntan001.png",
+                "iconPath": "static/icon/luntan.png",
+                "pagePath": "pages/sheqv/luntan",
+                "text": "社区"
+            },
+            {
+                "selectedIconPath": "static/icon/shezhi001.png",
+                "iconPath": "static/icon/shezhi.png",
+                "pagePath": "pages/setting/setting",
+                "text": "设置"
+            }
+        ]
+    },
+    "permission": {
+        "scope.userLocation": {
+            "desc": "查看位置信息"
+        }
+    },
+    "usingComponents": {},
+    "sitemapLocation": "sitemap.json"
+}

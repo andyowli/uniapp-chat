@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "uni-app",
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "uni-icons": "/uni_modules/uni-icons/components/uni-icons/uni-icons",
+    "emjio": "/pages/chat/emjio",
+    "chat-video": "/pages/chat/chatVideo/video"
+  }
+}

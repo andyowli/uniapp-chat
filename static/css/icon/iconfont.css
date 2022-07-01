@@ -1,0 +1,19 @@
+@font-face {
+  font-family: "iconfont"; /* Project id 3485110 */
+  src: url('@/static/css/icon/iconfont.woff2?t=1656225326536') format('woff2'),
+       url('@/static/css/icon/iconfont.woff?t=1656225326536') format('woff'),
+       url('@/static/css/icon/iconfont.ttf?t=1656225326536') format('truetype');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 20px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-dianzan:before {
+  content: "\e611";
+}
+

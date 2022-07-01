@@ -1,0 +1,1 @@
+<view class="emjio"><block wx:for="{{emjio}}" wx:for-item="line" wx:for-index="i" wx:key="i"><view class="emjio-line"><block wx:for="{{line}}" wx:for-item="item" wx:for-index="index" wx:key="index"><view data-event-opts="{{[['tap',[['clickEmjio',['$0'],[[['emjio','',i],['','',index]]]]]]]}}" class="emjio-line-item" bindtap="__e">{{item}}</view></block></view></block></view>

@@ -1,0 +1,16 @@
+{
+  "id": "3485110",
+  "name": "CHAT",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "11893492",
+      "name": "点赞",
+      "font_class": "dianzan",
+      "unicode": "e611",
+      "unicode_decimal": 58897
+    }
+  ]
+}

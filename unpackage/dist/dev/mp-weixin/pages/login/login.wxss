@@ -1,0 +1,198 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.page.data-v-b237504c {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #94bfb560;
+}
+.container.data-v-b237504c {
+  background-color: #222;
+  width: 350px;
+  height: 550px;
+  border-radius: 15px;
+  overflow: hidden;
+  position: relative;
+}
+.container.data-v-b237504c::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: #b6e3d9;
+  opacity: 0.8;
+}
+/* 注册区域（登录区域很多样式和注册区域的一样，故而一些统一的样式写在了一起） */
+.register-box.data-v-b237504c {
+  width: 70%;
+  position: absolute;
+  z-index: 1;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  transition: 0.3s ease;
+}
+.register-title.data-v-b237504c,
+.login-title.data-v-b237504c {
+  color: #fff;
+  font-size: 27px;
+  text-align: center;
+}
+.register-title text.data-v-b237504c,
+.login-title text.data-v-b237504c {
+  color: rgba(0, 0, 0, 0.4);
+  display: none;
+}
+.register-box .input-box.data-v-b237504c,
+.login-box .input-box.data-v-b237504c {
+  background-color: #fff;
+  border-radius: 15px;
+  overflow: hidden;
+  margin-top: 50px;
+  opacity: 1;
+  visibility: visible;
+  transition: 0.6s ease;
+}
+.register-box input.data-v-b237504c,
+.login-box input.data-v-b237504c {
+  width: 100%;
+  height: 30px;
+  border: none;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  font-size: 12px;
+  padding: 8px 0;
+  text-indent: 15px;
+  outline: none;
+}
+.register-box input.data-v-b237504c:last-child,
+.login-box input.data-v-b237504c:last-child {
+  border-bottom: none;
+}
+.register-box input.data-v-b237504c::-webkit-input-placeholder, .login-box input.data-v-b237504c::-webkit-input-placeholder {
+  color: rgba(0, 0, 0, 0.4);
+}
+.register-box input.data-v-b237504c::placeholder,
+.login-box input.data-v-b237504c::placeholder {
+  color: rgba(0, 0, 0, 0.4);
+}
+.register-box button.data-v-b237504c,
+.login-box button.data-v-b237504c {
+  width: 100%;
+  padding: 15px 45px;
+  margin: 15px 0;
+  background: rgba(0, 0, 0, 0.4);
+  border: none;
+  border-radius: 15px;
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 13px;
+  font-weight: bold;
+  cursor: pointer;
+  opacity: 1;
+  visibility: visible;
+  transition: 0.3s ease;
+}
+.register-box button.data-v-b237504c:hover,
+.login-box button.data-v-b237504c:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+/* 登录区域 */
+.login-box.data-v-b237504c {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 20%;
+  z-index: 2;
+  background-color: #fff;
+  transition: 0.3s ease;
+}
+.login-box.data-v-b237504c::before {
+  content: "";
+  background-color: #fff;
+  width: 200%;
+  height: 250px;
+  border-radius: 50%;
+  position: absolute;
+  top: -20px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+.login-box .center.data-v-b237504c {
+  width: 70%;
+  position: absolute;
+  z-index: 3;
+  left: 50%;
+  top: 40%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+.login-title.data-v-b237504c {
+  color: #000;
+}
+.login-box .input-box.data-v-b237504c {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+.login-box button.data-v-b237504c {
+  background-color: #75a297;
+}
+/* 注册、登录区域收起 */
+.login-box.slide-up.data-v-b237504c {
+  top: 90%;
+}
+.login-box.slide-up .center.data-v-b237504c {
+  top: 10%;
+  -webkit-transform: translate(-50%, 0%);
+          transform: translate(-50%, 0%);
+}
+.login-box.slide-up .login-title.data-v-b237504c,
+.register-box.slide-up .register-title.data-v-b237504c {
+  font-size: 16px;
+  cursor: pointer;
+}
+.login-box.slide-up .login-title text.data-v-b237504c,
+.register-box.slide-up .register-title text.data-v-b237504c {
+  margin-right: 5px;
+  display: inline-block;
+}
+.login-box.slide-up .input-box.data-v-b237504c,
+.login-box.slide-up .button.data-v-b237504c,
+.register-box.slide-up .input-box.data-v-b237504c,
+.register-box.slide-up .button.data-v-b237504c {
+  opacity: 0;
+  visibility: hidden;
+}
+.register-box.slide-up.data-v-b237504c {
+  top: 6%;
+  -webkit-transform: translate(-50%, 0%);
+          transform: translate(-50%, 0%);
+}
+

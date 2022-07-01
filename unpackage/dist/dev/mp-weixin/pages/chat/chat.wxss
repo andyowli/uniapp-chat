@@ -1,0 +1,208 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.chat-box.data-v-bf16e7f4 {
+  padding-top: 25px;
+  height: 100%;
+}
+.header.data-v-bf16e7f4 {
+  width: 100%;
+  height: 88rpx;
+  box-shadow: 0px 1px 0px 0px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: space-between;
+}
+.header .back.data-v-bf16e7f4, .header .more.data-v-bf16e7f4 {
+  font-size: 40rpx;
+}
+.header .back.data-v-bf16e7f4 {
+  margin: 20rpx;
+}
+.header .more.data-v-bf16e7f4 {
+  margin: 10rpx 24rpx 0 0;
+}
+.header .name.data-v-bf16e7f4 {
+  margin: 24rpx;
+}
+.chat-main.data-v-bf16e7f4 {
+  height: 74%;
+  padding: 10px;
+  overflow: hidden;
+  overflow-y: auto;
+}
+.chat-ls .chat-time.data-v-bf16e7f4 {
+  font-size: 12px;
+  color: rgba(39, 40, 50, 0.3);
+  line-height: 34rpx;
+  padding: 20rpx 0;
+  text-align: center;
+}
+.chat-ls .chat-tou-left.data-v-bf16e7f4, .chat-ls.data-v-bf16e7f4  .chat-tou-right {
+  display: flex;
+  padding: 20rpx 0;
+}
+.chat-ls .chat-tou-left .chat-mesg-l.data-v-bf16e7f4, .chat-ls .chat-tou-left .chat-mesg-r.data-v-bf16e7f4, .chat-ls.data-v-bf16e7f4  .chat-tou-right .chat-mesg-l, .chat-ls.data-v-bf16e7f4  .chat-tou-right .chat-mesg-r {
+  width: 300rpx;
+  background: #f3f5f7;
+  border-radius: 20rpx;
+  padding: 20rpx;
+  margin-left: 30rpx;
+  overflow: hidden;
+}
+.chat-ls .chat-tou-left .chat-mesg-l ._p.data-v-bf16e7f4, .chat-ls .chat-tou-left .chat-mesg-r ._p.data-v-bf16e7f4, .chat-ls.data-v-bf16e7f4  .chat-tou-right .chat-mesg-l ._p, .chat-ls.data-v-bf16e7f4  .chat-tou-right .chat-mesg-r ._p {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  font-size: 28rpx;
+}
+.chat-ls .chat-tou-left .chat-mesg-l image.data-v-bf16e7f4, .chat-ls .chat-tou-left .chat-mesg-r image.data-v-bf16e7f4, .chat-ls.data-v-bf16e7f4  .chat-tou-right .chat-mesg-l image, .chat-ls.data-v-bf16e7f4  .chat-tou-right .chat-mesg-r image {
+  max-width: 100%;
+  max-height: 140px;
+  border-radius: 10px;
+}
+.chat-ls .chat-tou-left .chat-mesg-l ._span.data-v-bf16e7f4, .chat-ls .chat-tou-left .chat-mesg-r ._span.data-v-bf16e7f4, .chat-ls.data-v-bf16e7f4  .chat-tou-right .chat-mesg-l ._span, .chat-ls.data-v-bf16e7f4  .chat-tou-right .chat-mesg-r ._span {
+  width: 300rpx;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: block;
+  margin: 10px 0 10px 0;
+}
+.chat-ls .chat-tou-left .chat-mesg-l .photomap.data-v-bf16e7f4, .chat-ls .chat-tou-left .chat-mesg-r .photomap.data-v-bf16e7f4, .chat-ls.data-v-bf16e7f4  .chat-tou-right .chat-mesg-l .photomap, .chat-ls.data-v-bf16e7f4  .chat-tou-right .chat-mesg-r .photomap {
+  width: 300rpx;
+  height: 190rpx;
+}
+.chat-ls .chat-tou-left .chat-mesg-l .soundImg.data-v-bf16e7f4, .chat-ls .chat-tou-left .chat-mesg-r .soundImg.data-v-bf16e7f4, .chat-ls.data-v-bf16e7f4  .chat-tou-right .chat-mesg-l .soundImg, .chat-ls.data-v-bf16e7f4  .chat-tou-right .chat-mesg-r .soundImg {
+  width: 68px;
+  height: 40px;
+}
+.chat-ls.data-v-bf16e7f4 .chat-tou-right .chat-img, .chat-ls .chat-tou-left .chat-img.data-v-bf16e7f4 {
+  width: 80rpx;
+  height: 80rpx;
+  border-radius: 20rpx;
+  margin-left: 20rpx;
+}
+.data-v-bf16e7f4 .chat-tou-right {
+  float: right;
+}
+.chat-input.data-v-bf16e7f4 {
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  z-index: 10;
+}
+.chat-input .chat-botton.data-v-bf16e7f4 {
+  height: 80px;
+  display: flex;
+  align-items: center;
+  background: #f4f4f4;
+  box-shadow: 0px 1px 0px 0px rgba(0, 0, 0, 0.1);
+}
+.chat-input .chat-botton .left-icon.data-v-bf16e7f4 {
+  padding-left: 12rpx;
+  padding-right: 12rpx;
+  display: flex;
+  align-items: center;
+}
+.chat-input .chat-botton .left-icon image.data-v-bf16e7f4 {
+  width: 56rpx;
+  height: 56rpx;
+}
+.chat-input .chat-botton .input-box.data-v-bf16e7f4 {
+  width: 68%;
+}
+.chat-input .chat-botton .input-box input.data-v-bf16e7f4, .chat-input .chat-botton .input-box .speak.data-v-bf16e7f4 {
+  width: 100%;
+  height: 72rpx;
+  background: white;
+  border-radius: 10rpx;
+}
+.chat-input .chat-botton .input-box input.data-v-bf16e7f4 {
+  padding-left: 20rpx;
+}
+.chat-input .chat-botton .input-box .speak.data-v-bf16e7f4 {
+  position: relative;
+  font-size: 32rpx;
+}
+.chat-input .chat-botton .input-box .speak ._span.data-v-bf16e7f4 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+.chat-input .chat-botton .right-icon.data-v-bf16e7f4 {
+  width: 188rpx;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-left: 10px;
+}
+.chat-input .chat-botton .right-icon image.data-v-bf16e7f4 {
+  width: 56rpx;
+  height: 56rpx;
+}
+.chat-input .moreEmjio.data-v-bf16e7f4 {
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+  overflow-y: auto;
+  background: #FBFBFD;
+}
+.chat-input .more1.data-v-bf16e7f4 {
+  position: relative;
+  width: 100%;
+  height: 200px;
+  background: #FFFFFF;
+}
+.chat-input .more1 .box-inner.data-v-bf16e7f4 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.chat-input .more1 ._li.data-v-bf16e7f4 {
+  list-style: none;
+  text-align: center;
+  color: #ffffff;
+  width: 12%;
+  height: 26%;
+  text-align: center;
+  margin-top: 20rpx;
+}
+.chat-input .more1 ._li image.data-v-bf16e7f4 {
+  width: 84rpx;
+  height: 84rpx;
+}
+.chat-input .more1 ._li ._span.data-v-bf16e7f4 {
+  color: #007AFF;
+  font-size: 26rpx;
+}
+

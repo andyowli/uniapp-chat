@@ -1,0 +1,163 @@
+{	
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/login/login",
+			"style": {
+				"navigationBarTitleText": "uni-app",
+				"navigationStyle":"custom"
+			}
+		},
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "uni-app",
+				"navigationStyle":"custom",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/setting/setting",
+			"style": {
+				"navigationBarTitleText": "uni-app",
+				"navigationStyle":"custom"
+			}
+		},
+		{
+			"path": "pages/user/useHome",
+			"style": {
+				"navigationBarTitleText": "uni-app",
+				"navigationStyle":"custom"
+			}
+		},
+		{
+			"path": "pages/chat/chat",
+			"style": {
+				"navigationBarTitleText": "uni-app",
+				"navigationStyle":"custom"
+			}
+		},
+		{
+			"path": "pages/setting/security",
+			"style": {
+				"navigationBarTitleText": "uni-app",
+				"navigationStyle":"custom"
+			}
+		},
+		{
+			"path": "pages/setting/contentPage/alterPas",
+			"style": {
+				"navigationBarTitleText": "uni-app",
+				"navigationStyle":"custom"
+			}
+		},
+		{
+			"path": "pages/setting/contentPage/destroy",
+			"style": {
+				"navigationBarTitleText": "uni-app",
+				"navigationStyle":"custom"
+			}
+		},
+		{
+			"path": "pages/community/community",
+			"style": {
+				"navigationBarTitleText": "uni-app",
+				"navigationStyle":"custom"
+			}
+		},
+		{
+			"path": "pages/search/search",
+			"style": {
+				"navigationBarTitleText": "uni-app",
+				"navigationStyle":"custom"
+			}
+		},
+		{
+			"path": "pages/addUser/addUser",
+			"style": {
+				"navigationBarTitleText": "uni-app",
+				"navigationStyle":"custom"
+			}
+		},
+		{
+			"path":"pages/group/group",
+			"style": {
+				"navigationBarTitleText": "uni-app",
+				"navigationStyle":"custom"
+			}
+		},
+		{
+			"path":"pages/group/createGroup",
+			"style": {
+				"navigationBarTitleText": "uni-app",
+				"navigationStyle":"custom"
+			}
+		},
+		{
+			"path":"pages/sheqv/luntan",
+			"style": {
+				"navigationBarTitleText": "uni-app",
+				"navigationStyle":"custom"
+			}
+		},
+		{
+			"path":"pages/sheqv/article",
+			"style": {
+				"navigationBarTitleText": "uni-app",
+				"navigationStyle":"custom"
+			}
+		},
+		{
+			"path":"pages/setting/contentPage/about",
+			"style": {
+				"navigationBarTitleText": "uni-app",
+				"navigationStyle":"custom"
+			}
+		},
+		{
+			"path":"pages/setting/contentPage/Realname",
+			"style": {
+				"navigationBarTitleText": "uni-app",
+				"navigationStyle":"custom"
+			}
+		}
+	],
+	"tabBar":{
+	  "color": "#d8d8d8",
+	  "selectedColor": "#f0ae05",
+	  "borderStyle": "white",
+	  "backgroundColor": "#ffffff",
+	  "list": [
+	    {
+	      "selectedIconPath": "static/icon/tanhua001.png",
+	      "iconPath": "static/icon/tanhua.png",
+	      "pagePath": "pages/index/index",
+	      "text": "聊天"
+	    },
+		{
+		  "selectedIconPath": "./static/icon/biaodan001.png",
+		  "iconPath": "./static/icon/biaodan.png",
+		  "pagePath": "pages/community/community",
+		  "fontSize": "16px",
+		  "text": "通讯"
+		},
+		{
+		  "selectedIconPath": "static/icon/luntan001.png",
+		  "iconPath": "static/icon/luntan.png",
+		  "pagePath": "pages/sheqv/luntan",
+		  "text": "社区"
+		},
+	    {
+	      "selectedIconPath": "static/icon/shezhi001.png",
+	      "iconPath": "static/icon/shezhi.png",
+	      "pagePath": "pages/setting/setting",
+	      "text": "设置"
+	    }
+	  ]
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	}
+}
